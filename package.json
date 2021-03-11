@@ -1,0 +1,22 @@
+{
+  "name": "lgna-db",
+  "version": "1.0.0",
+  "description": "Discord bot",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "author": "Gaspard Cothias Faure",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@discordjs/opus": "^0.3.3",
+    "discord.js": "^12.5.1",
+    "ffmpeg": "0.0.4",
+    "ffmpeg-static": "^4.2.7",
+    "fluent-ffmpeg": "^2.1.2",
+    "fs": "0.0.1-security",
+    "node-fetch": "^2.6.1",
+    "puppeteer": "^5.5.0",
+    "ytdl-core": "^4.4.2"
+  }
+}

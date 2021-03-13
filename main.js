@@ -384,7 +384,7 @@ async function createGGLinks() {
     await page.mouse.click(slider.x + slider.width / 8, slider.y + slider.height / 2+0.0000001);
 
     // Click on the no moove option
-    await page.click("#__next > div > main > div > div > div > div > div > div > div.card__content > article > div:nth-child(3) > div > div > div.game-settings__detailed-settings > div.game-settings__checkbox.margin--top > div > div.form-field__field > div > label:nth-child(1) > span");
+    await page.click("#__next > div > main > div > div > div > div > div > div > div.card__content > article > div:nth-child(3) > div > div > div.game-settings__detailed-settings > div.game-settings__checkbox.margin--top > div > div.form-field__field > div > label:nth-child(2)");
 
     // Click n the create game button
     page.click("button[type='button']")

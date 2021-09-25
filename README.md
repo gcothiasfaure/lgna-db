@@ -1,42 +1,19 @@
 # <img src="https://github.com/GaspardCothiasFaure/lgna-db/blob/master/lgna-db-logo.png" alt="drawing" width="25"/> lgna Discord bot <img src="https://github.com/GaspardCothiasFaure/lgna-db/blob/master/lgna-db-logo.png" alt="drawing" width="25"/>
 
-**lgna Discord bot** est un bot Discord, développé grâce à l'API Discord, hébergé sur Heroku.
+Simple Discord bot with funny features for the lgna team.
 
-### Installation du bot sur un nouveau serveur Discord :
-- Aller à https://discordapi.com/permissions.html
-- Dans un souci de simplicité, autorisez le bot à toutes les actions en cochant toutes les checkboxs
-- Dans le champ **Client ID**, renseignez l'id du bot : ** **
-- Cliquez sur le lien en bas de page
-- Connectez-vous à Discord, choisissez un de vos serveurs où ajouter le bot et autorisez le à toutes les permissions
-- Dans un salon textuel du serveur, tapez **$dev-test** pour vérifier si le bot est bien connecté
+**STACK :** Node.js Puppeteer, Discord API, Giphy API, YouTube DL.
 
-### Commandes utiles :
->A utiliser dans un salon textuel dans un serveur où le bot a été ajouté.
+### Installing the bot on a new Discord server:
+- Go to https://discordapi.com/permissions.html
+- For the sake of simplicity, allow the bot to perform all actions by checking all the checkboxes
+- In the **Client ID** field, enter the bot's id
+- Click on the link at the bottom of the page
+- Connect to Discord, choose one of your servers to add the bot to and allow it all permissions
+- In a server text room, type **$dev-test** to check if the bot is connected
 
-- **$doc** pour afficher la documentation utilisateur
-- **$dev-doc** pour afficher la documentation développeur
+### Useful commands:
+>To be used in a text room in a server where the bot has been added.
 
-### Pistes de nouvelles fonctionnalitées :
-- Partie automatique de skribble
-- Partie automatique de agar.io
-
-### Dépendances *node.js* utilisées :
-- discord.js
-- puppeteer
-- node-fetch
-- fs
-- discordjs/opus
-- ffmpeg
-- ffmpeg-static
-- fluent-ffmpeg
-- ytdl-core
-
-### API utilisées :
-
-- GIPHY API
-
-### Auteurs :
-
-- Gaspard Cothias Faure
-
-### Contributeurs :
+- $doc** to display the user documentation
+- $dev-doc** to display the developer documentation
